@@ -24,7 +24,7 @@ categories: 技术
   const store=createStore(fn);
   ```
   `createStore`函数接受另一函数作为参数，返回生成的Store对象      
-
+<!-- more -->
 2. State
   `Store`对象包含所有数据。如果想要得到某个时间点的数据，就要对Store生成快照。这种时点的数据集合，就叫做State。
   当前时刻的State，可以通过store.getState()拿到。  

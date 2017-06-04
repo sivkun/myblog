@@ -1,12 +1,14 @@
 ---
-title: 节流器throttle
+title: 节流模式
 date: 2017-06-04 18:13:13
-tags:
+tags: [节流模式]
+categories: 设计模式
 ---
 
 节流模式（Throttler）：对重复的业务逻辑进行节流控制，执行最后一次操作并取消其他操作，以提高性能。
 用处：浏览器中的scroll、mouseover、mouseenter、mouseleave、resize等事件的处理函数被连续重复触发，很多情况下，只需要对最后一次触发做出反应，这时就要用到节流模式。
-简单例子如下：
+<!-- more -->
+简单例子：
 ```html
 <!DOCTYPE html>
 <html lang="en">

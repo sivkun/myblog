@@ -14,7 +14,7 @@ React源码规模十分庞大，开始阅读的时候不能直接陷进去，研
 
 ​	React@16这个版本，其实发生了很大的变化，React将要发布fiber特性。React fiber对以前React的核心算法做了全新的改版。不过React@16.0.0-alpha.3代码库中，以前的模块还都存在，可以阅读研究。
 
-<--more-->
+<!--more-->
 
 ​	阅读React源码，首先对React源码中的基本概念有充分的理解。我想既然想研究React源码，肯定对已经对React有了充分的认识。如果有不明白的地方，[官方文档](https://facebook.github.io/react/docs/installation.html)是很好的资源。
 

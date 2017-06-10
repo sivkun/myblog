@@ -22,7 +22,7 @@ React源码规模十分庞大，开始阅读的时候不能直接陷进去，研
 
 在代码中加debugger，console.log。在浏览器控制台调试。可以加在自己写的文件中，也可以加在`node_modules`中的`react`和`react-dom`模块源码中。
 
-#React中的基本概念
+# React中的基本概念
 
 1. `React Component`：用户自定义组件，以前是通过`React.createClass`创建自定义组件,现在es6语法是通过class 继承的语法创建自定义组件，自组件中可以定义生命周期函数等，自定义组件只是一个类或者说是一个构造函数，可以在JSX中声明式的使用，如`<div><MyConponent1/><MyComponent2/></div>`，这时并没有对自定义组件进行实例化。
 2. `ReactElement`：`ReactElement`是React对用户自定义组件和原生DOM的一个抽象元素，就像原生DOM元素（div、span）一样可以构成DOM树，通过`ReactElement`之间的组合抽象形成`Virtual DOM`树。无论是DOM元素还是用户自定义组件都会被转化为ReactElement。
@@ -74,14 +74,14 @@ React以JSX形式书写，是要经过babel转义处理的。可以在http://bab
 7. 执行 `ReactReconcileTransaction`的close阶段。
 8. 执行 `ReactUpdates.batchedUpdates`的close阶段。
 
-这是我开始研究源码时，在https://www.processon.com上画的图，![ReactMount阶段分析过程图](http://www.processon.com/chart_image/591304bde4b0f320c44ff26f.png)很是庞大，操作很复杂，不画图的话会跳晕的。当中可能有些不准确的地方。
+这是我开始研究源码时，在https://www.processon.com上画的图，
+![ReactMount阶段分析过程图](http://www.processon.com/chart_image/591304bde4b0f320c44ff26f.png)
+很是庞大，操作很复杂，不画图的话会跳晕的。当中可能有些不准确的地方。
 
 还有实例化ReactComponent的过程，还有React组件的树形结构。如图
 
+
 ![InstantiateReactComponent](http://www.processon.com/chart_image/5915e122e4b0ef971ac9bb85.png)
-
-
-
 
 
 # React updating阶段

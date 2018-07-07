@@ -96,4 +96,4 @@ React实现了一套复杂的事件系统。可以结合一开始给出的参考
 
 React源码很复杂，我也只是有了个大概的理解，还没能从更高的层次去理解其设计的原理及原因。
 
-添加注释的代码参考https://github.com/sivkun/react-analysis。
+添加注释的代码参考https://github.com/sivkun/react-analysis  

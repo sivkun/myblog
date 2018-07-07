@@ -793,7 +793,7 @@ HTTPS采用混合加密机制，先使用非对称密钥加解密，建立通信
 
 上述流程中，应用层发送数据时会附加一种叫做MAC（Message Authentication Code）的报文摘要。MAC能够查知报文是否遭到篡改，从而保证报文的完整性。
 
-![HTTPS流程](http协议/HTTPS过程.png)
+![HTTPS流程](./http协议/HTTPS过程.png)
 
 SSL和TLS
 
